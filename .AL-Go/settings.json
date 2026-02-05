@@ -7,7 +7,7 @@
     "Production",
     "UAT"
   ],
-  "DeployToTEST": {
+  "DeployToUAT": {
     "EnvironmentName": "UAT",
     "Scope": "PTE",
     "continuousDeployment": true,
