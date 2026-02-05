@@ -2,5 +2,26 @@
   "$schema": "https://raw.githubusercontent.com/Freddy-D4P/AL-Go/main/Actions/.Modules/settings.schema.json",
   "appFolders": [],
   "testFolders": [],
-  "bcptTestFolders": []
+  "bcptTestFolders": [ "CCMS" ],
+  "environments": [
+    "Production",
+    "UAT"
+  ],
+  "DeployToTEST": {
+    "EnvironmentName": "UAT",
+    "Scope": "PTE",
+    "continuousDeployment": true,
+    "Branches": [
+      "frw"
+    ]
+  },
+  "DeployToProduction": {
+    "EnvironmentName": "Production",
+    "Scope": "PTE",
+    "continuousDeployment": false,
+    "Branches": [
+      "frw"
+    ]
+  },
+  "doNotRunTests": true,
 }
