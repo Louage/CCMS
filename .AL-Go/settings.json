@@ -24,4 +24,7 @@
     ]
   },
   "doNotRunTests": true,
+  "enableCodeCop": true,
+  "enableUICop": true,
+  "rulesetFile": "CCMS/.vscode/app.ruleset.json"
 }
